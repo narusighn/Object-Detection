@@ -1,30 +1,56 @@
-
-.heading
-{
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
-}
-
-#status
-{
-    font-size: 20px;
-}
-
 body{
-    background-size: cover;
-    background-position:center ;
+    background-color: turquoise;
 }
 
-#Heading{
-    font-size: 25px !important;
+#header{
     width: 100%;
-    margin-top: 0px;
+    height: 60px;
+    background-color: palevioletred;
+    margin-top: 0;
+    float: top;
+}
+
+#but1{
+    background-color: teal;
+    margin-top: 200px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#but2{
+    background-color: teal;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#but3{
+    background-color: teal;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    border-radius: 20px;
+    width: 200px;
+}
+
+#but4{
+    background-color: teal;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    border-radius: 20px;
+    width: 200px;
 }
 
 canvas{
-    border-color: palevioletred;
-    border-width: 10px;
+    background-color:white;
     border-style: dotted;
-    box-shadow:plum 5px 5px 120px;
+    border-color: purple;
+    border-width: 20px;
+    box-shadow:palevioletred;
 }
