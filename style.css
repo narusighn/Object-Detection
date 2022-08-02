@@ -1,26 +1,26 @@
-body{
-    background-color: pink;
-}    
+.body{
+    background-image: url("download.png");
+}
 
-h1{
-    width: 100%;
-    margin-top: 0;
-    background-color: royalblue;
+
+#head h1{
+    float: left;
+    display: inline;
+
+}
+
+#head button{
+    float: right;
+    display: inline;
     font-size: 30px;
 }
 
-p{
-    font-size: 15px;
+.footer{
+    margin-bottom: 0%;
+    color: darkgray;
+    border: black;
 }
 
-#input{
-    width: 800px;
-}
-
-
-canvas{
-    border-width: 5px;
-    border-color: purple;
-    border-style: dashed;
-    box-shadow: rebeccapurple;
+.modal-dialog{
+    width: 90%;
 }
